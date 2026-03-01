@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy place bakery - Fresh Cakes, Flowers & More</title>
-    <meta name="description" content="Order fresh cakes, fastfood, flowers, beverages and anniversary gifts online from Happy place bakery.">
+    <meta name="description" content="Order fresh cakes, fastfood, flowers, beverages and anniversary gifts online.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -313,8 +313,7 @@
             height: 60px;
             object-fit: cover;
             border-radius: 8px;
-            margin-bottom: 6px;
-            background-color: #f0f0f0;
+            margin-bottom: 6px
         }
 
         .category-card .cat-name {
@@ -403,8 +402,7 @@
             height: 180px;
             object-fit: cover;
             border-radius: var(--r2);
-            filter: drop-shadow(0 8px 20px rgba(0, 0, 0, .12));
-            background-color: #ddd;
+            filter: drop-shadow(0 8px 20px rgba(0, 0, 0, .12))
         }
 
         /* SECTION TITLE */
@@ -471,8 +469,7 @@
             border-radius: var(--r);
             border: 2px solid var(--border);
             margin-bottom: 6px;
-            transition: .3s;
-            background-color: #eee;
+            transition: .3s
         }
 
         .popular-item:hover img {
@@ -578,7 +575,7 @@
             height: 100%;
             object-fit: cover;
             transition: .4s;
-            background-color: #eaeaea;
+            background-color: #f7f7f7;
         }
 
         .product-card:hover .product-image-wrap img {
@@ -1190,23 +1187,26 @@
 
         <!-- CATEGORIES -->
         <div class="categories-row">
-            <div class="category-card anim anim-d1">
+            <div class="category-card anim anim-d1"><img src="/images/cake_category_1772375299144.png" alt="Cake">
                 <div class="cat-name">Cake</div>
                 <div class="cat-icon">🎂</div>
             </div>
-            <div class="category-card anim anim-d2">
+            <div class="category-card anim anim-d2"><img src="/images/fastfood_category_1772375335540.png"
+                    alt="Fastfood">
                 <div class="cat-name">Fastfood</div>
                 <div class="cat-icon">🍔</div>
             </div>
-            <div class="category-card anim anim-d3">
+            <div class="category-card anim anim-d3"><img src="/images/flower_category_1772375358790.png" alt="Flower">
                 <div class="cat-name">Flower</div>
                 <div class="cat-icon">💐</div>
             </div>
-            <div class="category-card anim anim-d4">
+            <div class="category-card anim anim-d4"><img src="/images/beverages_category_1772375418725.png"
+                    alt="Beverages">
                 <div class="cat-name">Beverages</div>
                 <div class="cat-icon">☕</div>
             </div>
-            <div class="category-card anim anim-d5">
+            <div class="category-card anim anim-d5"><img src="/images/anniversary_category_1772375379598.png"
+                    alt="Anniversary">
                 <div class="cat-name">Anniversary</div>
                 <div class="cat-icon">🎊</div>
             </div>
@@ -1217,8 +1217,9 @@
             <div class="hero-content">
                 <h2>Welcome to<br>Happy place bakery</h2>
                 <p>Freshly baked from our kitchen! 📍 Ranka chopra mohalla, New Ln, Gangashahar, Bikaner, Rajasthan 334401, India</p>
-                <a href="https://wa.me/917615949663?text=Hi!%20I%20want%20to%20order%20from%20Happy place bakery" class="shop-now-btn" style="color: white;">Order Now via WhatsApp</a>
+                <a href="https://wa.me/917615949663?text=Hi!%20I%20want%20to%20order%20from%20Happy place bakery" class="shop-now-btn" style="color: white; text-decoration: none;">Order Now via WhatsApp</a>
             </div>
+            <div class="hero-image"><img src="/images/hero_birthday_cake_1772375436571.png" alt="Birthday Cake"></div>
         </div>
 
         <!-- OFFERS STRIP -->
@@ -1237,6 +1238,25 @@
             </div>
         </div>
 
+        <!-- POPULAR CATEGORIES -->
+        <div class="popular-categories">
+            <div class="section-header">
+                <h3 class="section-title">Popular Categories</h3><a href="#" class="see-all">See All →</a>
+            </div>
+            <div class="popular-row">
+                <div class="popular-item"><img src="/images/first_birthday_1772375523656.png"
+                        alt="First Birthday"><span>First Birthday</span></div>
+                <div class="popular-item"><img src="/images/masala_patties_1772375455590.png"
+                        alt="Patties"><span>Patties</span></div>
+                <div class="popular-item"><img src="/images/anniversary_category_1772375379598.png"
+                        alt="Anniversary"><span>Anniversary</span></div>
+                <div class="popular-item"><img src="/images/birthday_cake_blue_1772375552406.png"
+                        alt="Birthday Cake"><span>Birthday Cake</span></div>
+                <div class="popular-item"><img src="/images/beverages_multiple_1772375571496.png"
+                        alt="Beverages"><span>Beverages</span></div>
+            </div>
+        </div>
+
         <!-- PRODUCTS -->
         <div class="section-header">
             <h3 class="section-title">Best Sellers</h3><a href="#" class="see-all">See All →</a>
@@ -1244,7 +1264,8 @@
         <div class="products-grid" id="products">
 
             <div class="product-card">
-                <div class="product-image-wrap"><span class="discount-badge">20% OFF</span><button class="wishlist-btn"
+                <div class="product-image-wrap"><img src="/images/masala_patties_1772375455590.png"
+                        alt="Masala Patties"><span class="discount-badge">20% OFF</span><button class="wishlist-btn"
                         onclick="toggleWish(this)">♡</button></div>
                 <div class="product-info">
                     <div class="product-name">🔥 Masala Patties</div>
@@ -1261,7 +1282,8 @@
             </div>
 
             <div class="product-card">
-                <div class="product-image-wrap"><span class="discount-badge" style="background:var(--orange)">15%
+                <div class="product-image-wrap"><img src="/images/cheesy_pizza_1772375472737.png"
+                        alt="CheezyLicious"><span class="discount-badge" style="background:var(--orange)">15%
                         OFF</span><button class="wishlist-btn" onclick="toggleWish(this)">♡</button></div>
                 <div class="product-info">
                     <div class="product-name">🍕 CheezyLicious</div>
@@ -1278,7 +1300,8 @@
             </div>
 
             <div class="product-card">
-                <div class="product-image-wrap"><span class="discount-badge">25% OFF</span><button class="wishlist-btn"
+                <div class="product-image-wrap"><img src="/images/cake_category_1772375299144.png"
+                        alt="Chocolate Dream"><span class="discount-badge">25% OFF</span><button class="wishlist-btn"
                         onclick="toggleWish(this)">♡</button></div>
                 <div class="product-info">
                     <div class="product-name">🎂 Chocolate Dream</div>
@@ -1295,7 +1318,8 @@
             </div>
 
             <div class="product-card">
-                <div class="product-image-wrap"><span class="discount-badge" style="background:#e91e63">10% OFF</span><button
+                <div class="product-image-wrap"><img src="/images/flower_category_1772375358790.png"
+                        alt="Rose Bouquet"><span class="discount-badge" style="background:#e91e63">10% OFF</span><button
                         class="wishlist-btn" onclick="toggleWish(this)">♡</button></div>
                 <div class="product-info">
                     <div class="product-name">🌹 Rose Bouquet</div>
@@ -1311,6 +1335,84 @@
                 </div>
             </div>
 
+            <div class="product-card">
+                <div class="product-image-wrap"><img src="/images/beverages_category_1772375418725.png"
+                        alt="Iced Latte"><span class="discount-badge" style="background:var(--gold)">NEW</span><button
+                        class="wishlist-btn" onclick="toggleWish(this)">♡</button></div>
+                <div class="product-info">
+                    <div class="product-name">☕ Iced Latte</div>
+                    <div class="rating"><span class="star">★★★★</span><span class="star empty">★</span></div>
+                    <p class="product-desc">Smooth cold brew with creamy milk layers.</p>
+                    <div class="price-row"><span class="price-original">₹220</span><span class="price-new">₹180</span>
+                    </div><a href="https://wa.me/917615949663?text=Hi!%20I%20want%20to%20order%20Iced%20Latte" class="add-to-cart-btn"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1" />
+                            <circle cx="20" cy="21" r="1" />
+                            <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+                        </svg>Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-wrap"><img src="/images/birthday_cake_blue_1772375552406.png"
+                        alt="Rainbow Cake"><span class="discount-badge">30% OFF</span><button class="wishlist-btn"
+                        onclick="toggleWish(this)">♡</button></div>
+                <div class="product-info">
+                    <div class="product-name">🌈 Rainbow Cake</div>
+                    <div class="rating"><span class="star">★★★★★</span></div>
+                    <p class="product-desc">Colorful pastel birthday cake with macarons.</p>
+                    <div class="price-row"><span class="price-original">₹1200</span><span class="price-new">₹840</span>
+                    </div><a href="https://wa.me/917615949663?text=Hi!%20I%20want%20to%20order%20Rainbow%20Cake" class="add-to-cart-btn"><svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1" />
+                            <circle cx="20" cy="21" r="1" />
+                            <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+                        </svg>Add to Cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TESTIMONIALS -->
+        <div class="testimonials">
+            <div class="section-header">
+                <h3 class="section-title">What Customers Say</h3><a href="#" class="see-all">View All →</a>
+            </div>
+            <div class="testimonial-row">
+                <div class="testimonial-card">
+                    <div class="tc-top">
+                        <div class="avatar">👩</div>
+                        <div>
+                            <div class="tc-name">Priya Sharma</div>
+                            <div class="tc-stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="tc-text">"The birthday cake was absolutely stunning! Fresh, delicious and delivered on
+                        time. Highly recommend!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-top">
+                        <div class="avatar">👨</div>
+                        <div>
+                            <div class="tc-name">Rahul Singh</div>
+                            <div class="tc-stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="tc-text">"Best masala patties in town! Crispy outside, perfectly spiced inside. My family
+                        loves ordering from here."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-top">
+                        <div class="avatar">👩</div>
+                        <div>
+                            <div class="tc-name">Neha Gupta</div>
+                            <div class="tc-stars">★★★★☆</div>
+                        </div>
+                    </div>
+                    <p class="tc-text">"Beautiful flower arrangements for our anniversary. The combo with cake was
+                        perfect. Great service!"</p>
+                </div>
+            </div>
         </div>
 
     </div><!-- container end -->
@@ -1323,6 +1425,25 @@
                 <ul>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Fastfood</a></li>
+                    <li><a href="#">Flowers</a></li>
+                    <li><a href="#">Beverages</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -1345,6 +1466,8 @@
                 class="bn-icon">🛒</span>Cart</button>
         <button class="bottom-nav-item" onclick="showToast('Wishlist is empty ♡')"><span
                 class="bn-icon">♡</span>Wishlist</button>
+        <button class="bottom-nav-item" onclick="showToast('Login to your account')"><span
+                class="bn-icon">👤</span>Profile</button>
     </nav>
 
     <!-- TOAST -->
